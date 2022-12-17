@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: rgb(6, 7, 19);
+}
+
+header {
+    padding-top: 16px;
+    padding-left: 16px;
+    background-color: rgb(0, 97, 94);
+}
+
+h1,
+h4 {
+    color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 8px;
+    height: 30px;
+}
+
+.navigation-bar button {
+    border-radius: 2px;
+    width: 40px;
+    height: inherit;
+    border-style: none;
+    background-color: rgb(8, 74, 72);
+}
+
+.navigation-bar button:hover {
+    border-style: inset;
+    background-color: aquamarine;
+    transition-duration: 100ms;
+}
