@@ -7,20 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mateo González</title>
     <link rel="stylesheet" href="general.css">
+    <script src="loader.js"></script>
 </head>
 
-<body>
+<body onload="loader()">
+    <div class="navigation-bar">
+        <button id="about">Sobre mi</button>
+        <button id="projects">Mis proyectos</button>
+        <img id="lang" onclick="changeLanguage()" draggable="false">
+    </div>
+
     <header>
         <div class="title">
-            <h1>Mateo González Márquez</h1>
-            <h4>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h4>
-        </div>
-
-        <div class="navigation-bar">
-            <button>Sobre mi</button>
-            <button>Mis proyectos</button>
+            <h1 id="title"></h1>
+            <h4 id="subtitle"></h4>
         </div>
     </header>
+
+    <div>
+
+    </div>
 </body>
 
 </html>
